@@ -1,0 +1,138 @@
+body{
+    color: white;
+}
+
+.fondo{
+    background: url(../img/fondo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.fondo-transparente{
+    background: rgba(148, 142, 184, 0.6);
+}
+
+.nombre-del-sitio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bloque-izquierdo{
+    min-height: 10rem;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    /*background: rgb(255, 250, 223);*/
+    color: black;
+    
+}
+.bloque-izquierdo>div{
+    padding-top: 20px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    background: rgb(255, 250, 223);
+    border-radius: 5px;
+    padding-bottom: 20px;  
+}
+.bloque-derecho{
+    min-height: 60rem;
+    padding-left: 20px; 
+    padding-right: 20px; 
+}
+
+.busqueda{
+    margin-bottom: 25px;
+}
+
+.navegacion ul li a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.favoritos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-favoritos img{
+    border-radius: 15px;;
+    border: 3px solid rgb(255, 200, 71);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.historial div{
+    color: black;
+    min-height: 10rem;
+}
+.historial div * {
+    margin-left: 5px;;
+}
+
+.historial div ul li a {
+    color: black;
+}
+
+.publicacion{
+    color: black;
+    background: rgb(255, 250, 223);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.img-publicacion{
+    border-radius: 5px;
+    border: 3px solid gray;
+}
+.im-usuaruio{
+    height: 30px;
+    width: 30px;
+}
+
+
+.texto-comentario{
+    border-radius: 5px;
+    border:1px solid lightgray;
+    color: gray;
+}
+.comentario{
+    margin: 20px;;
+
+}
+.fecha-entrada{
+    color: indigo;
+}
+
+
+.navegacion a{
+    width: 100%;
+}
+.publicacion button{
+    width: 100%;
+}
+.busqueda button{
+    width: 100%;
+}
+
+/*Tablets - Medium*/
+@media (max-width:1024px){
+    .bloque-izquierdo, .bloque-derecho{
+        height:auto;
+        margin-bottom: 20px;
+    }
+
+       
+}
+
+/*Mobiles - Small*/
+@media (max-width:640px){
+    .bloque-izquierdo, .bloque-derecho{
+        height:auto;
+        margin-bottom: 20px;
+    }
+
+
+
+       
+}

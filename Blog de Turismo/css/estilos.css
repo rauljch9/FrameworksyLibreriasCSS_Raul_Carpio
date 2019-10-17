@@ -1,0 +1,128 @@
+.cuerpo{
+    background: url(../img/fondo5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    color: white;
+}
+
+.header{
+    min-height: 8rem;
+}
+
+.slogan{
+    color: black;
+}
+
+.contenido{
+    min-height: 20rem;
+}
+
+.img-logo img{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.navegacion{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+}
+
+.navegacion a{
+    width: 100%;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenido-secundario{
+    padding:10px; 
+}
+
+
+.img-red-social {
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-red-social img{
+    width: 80%;
+    background: white;
+    border-radius: 5px;
+}
+
+.img-contenido{
+    width: 100%;
+}
+
+
+/*.entrada{*/
+.entrada1>div, .entrada2>div, .perfil>div, .comentario1>div, .comentario2>div{
+    background: white;
+    color: black;
+    
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.img-entrada{
+    width: 200px;
+}
+
+
+@media(min-width:760px){
+    .img-red-social img{
+        width: 50px;
+    }
+    
+    .img-perfil{
+        width: 250px;
+    }
+
+    .cuerpo{
+        width: 80%;
+    }
+
+}
+
+@media(max-width:760px){
+    .img-red-social img{
+        width: 50px;
+    }
+    .buscador{
+        min-width: 50px;
+    }
+
+}
+
+
+
+@media(max-width:600px){
+    .contenido-secundario{
+        display: flex;
+        flex-direction: column;
+    }
+    .entrada1{
+        order: 1;
+    }
+    .comentario1{
+        order: 2;
+    }
+    
+    .entrada2{
+        order: 3;
+    }
+    
+    .comentario2{
+        order: 4;
+    }
+    
+
+    .perfil{
+        order: 5;
+    }
+}

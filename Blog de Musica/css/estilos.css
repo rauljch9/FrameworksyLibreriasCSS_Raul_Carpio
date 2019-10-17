@@ -1,0 +1,77 @@
+
+body{
+    background: black;
+}
+
+.cuerpo{
+    background: white;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.header, .div-logo, .div-bloque-derecho{
+    min-height: 5rem;
+    color: blue;
+}  
+
+.div-bloque-vacio{
+    height: 2rem;
+}
+
+.div-redes-sociales{
+    height: 2rem;
+    padding: 10px;
+}
+
+.div-redes-sociales a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img-logo{
+    height: 5rem;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+#menu{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+.buscador{
+    min-height: 50rem;
+}  
+
+
+.publicacion{
+    background: lightblue;
+}
+
+.publicacion-img{
+    width: 100%;
+}
+
+
+.navegacion{
+    width: 100%;
+}
+.opcion-navegacion a {
+    width: 100%;
+}
+
+
+/*Mobiles*/
+@media (max-width:760px){
+    .opcion-navegacion{
+        margin-bottom: 10px;;
+    }
+    
+}
+
+
